@@ -7,12 +7,6 @@ namespace MyApplication
         public Calculator(string v)
         {
         }
-
-        // public Calculator(string name)
-        //{
-        //    Console.WriteLine("" + name);
-        //    PrintMessage();
-        //}
         public int Addition(int n1, int n2)
         {
             return n1 + n2;
@@ -29,10 +23,5 @@ namespace MyApplication
         {
             return n1 / n2;
         }
-
-        //private void PrintMessage()
-        //{
-        //    Console.WriteLine("test");
-        //}
     }
 }

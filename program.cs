@@ -4,7 +4,6 @@ namespace MyApplication
 {
     class Program
     {
-
         static void Main(string[] args)
         {
 
@@ -12,7 +11,7 @@ namespace MyApplication
 
             PrintOperation();
 
-            int action; //= Convert.ToInt32(Console.ReadLine());
+            int action; 
             string input3 = Console.ReadLine();
             int action1;
 
@@ -21,21 +20,6 @@ namespace MyApplication
                 Console.WriteLine("Choose a number between 1 and 4");
                 goto repeat3;
             }
-
-
-
-            //if (int.TryParse(Console.ReadLine(), out action) && action >= 1 && action <= 4)
-            //    break;
-
-            //Console.WriteLine("Invalid choice. Please enter a number between 1 and 4.");
-        
-
-            //if (action > 4)
-            //{
-            //    Console.WriteLine("Choose a number between 1 and 4");
-            //    goto repeat3;
-            //}
-
 
             if (action < 1 || action > 4)
             {
@@ -56,22 +40,6 @@ namespace MyApplication
                 goto repeat1;
             }
 
-
-
-
-        //int n1;
-        //while (true)
-        //{
-        //    Console.WriteLine("Enter first number");
-
-        //        if (int.TryParse(input, out action) && action >= 1 && action <= 4)
-        //            break;
-
-        //        Console.WriteLine("Invalid choice. Please enter a number between 1 and 4.");
-        //    }
-
-        //}
-
         repeat2:
 
             Console.WriteLine("Enter second number");
@@ -85,12 +53,6 @@ namespace MyApplication
             }
 
             Calculator calc = new Calculator("Amman");
-
-
-
-
-
-
 
             int result = 0;
             switch (action)
@@ -106,7 +68,6 @@ namespace MyApplication
                     break;
                 case 4:
 
-                    
                     if (n2 == 0)
                     {
                         Console.WriteLine("Cannot divide by zero");
